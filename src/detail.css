@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+    .serviceS{
+       margin-top: 500px;
+    }
+    .carphoto{
+        height: 200px;
+        width: 200px;
+    }
+    .serviceA{
+        margin-top: 50px;
+    }
+    .serviceH{
+        position: relative;
+        top: 100px;
+    }
+    .serviceP{
+        position: relative;
+        top: 100px;
+    }
+}

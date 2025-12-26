@@ -1,0 +1,77 @@
+@media screen and (max-width: 768px) {
+    .parase{
+        display: none;
+    }
+    /* ==========about======== */
+    .aboutdiv{
+        position: relative;
+        right: 90px;
+    }
+    .aboutimg{
+        position: relative;
+        left: 2px;
+        bottom: 50px;
+    }
+    .aboutdetail{
+        position: relative;
+        right: 19px;
+    }
+    .aboutde{
+        position: relative;
+        right: 150px;
+    }
+    .abouth{
+        display: none;
+    }
+    .contactH{
+        font-size: xx-large;
+        
+    }
+    .textN{
+        width: 370px;
+    }
+   .adminlog{
+    width: 330px;
+   }
+
+}
+/* ========contact========= */
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.animate-slide-right {
+  animation: slideRight 1s ease forwards;
+  opacity: 0;
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }

@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+   .footerS{
+    height: 100%;
+   }
+    .footerF{
+        position: relative;
+        
+    }
+    .spam{
+        display: none;
+    }
+    .falo{
+        position: relative;
+        left: 10px;
+        bottom: 90px;
+        
+    }
+    .local{
+        position: relative;
+        left: 7px;
+        top: 8px;
+        
+    }
+   
+    .faph{
+        position: relative;
+        left: 10px;
+        top: 80px;
+    }
+    .faem{
+        position: relative;
+        left: 10px;
+        top: 100px;
+    }
+    .divide{
+        position: relative;
+        top: 30px;
+    }
+}
+
