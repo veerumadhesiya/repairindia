@@ -49,16 +49,16 @@ const Services = () => {
           ))}
         </div>
       </div>
-      <div className="parase h-100  bg-[#D1E3FF] text-left mt-10">
-        <p className="  pt-20 pl-65 font-sans">We at Repair India have optimal solutions for all major brands of home and kitchen appliances. No matter whether your refrigerator needs repairing or you require <br />
-          installation for your new air conditioner, we are there for you. We are the most preferred choice for appliance repair services in the pan India. Our repair <br />
-          technicians are highly trained, knowledgeable and courteous, We service all brands household appliances & electronics including AC, TV, Refrigerator, Washing <br />
+    <div className="parase h-100  bg-[#D1E3FF] text-left mt-10">
+        <p className="  pt-20 pl-10 font-sans">We at Repair India have optimal solutions for all major brands of home and kitchen appliances. No matter whether your refrigerator needs repairing or you require <br />
+          installation for your new air conditioner, we are there for you. We are the most preferred choice for appliance repair services in the pan India. Our repair 
+          technicians are highly trained, knowledgeable and courteous, We service all brands household appliances & electronics including AC, TV, Refrigerator, Washing 
           Machine, Microwave, RO Water Purifier, Air Purifier, Geyser, Chimney, Hob, Air Cooler, Inverter and many more.</p><br />
-        <p className="  pl-65 font-sans">Since 2007 Repair India company has delivered quality home appliance repair and services through innovative doorstep services. The spectacular service does not <br />
-          stop after your repair is completed. Repair India is so confident in the quality, We guarantee our work for upto 30 days warranty at no extra cost. And our selected <br />
-          trusted and verified service technicians are among the best in the industry. They all are well educated, experienced real professional and factory trained service <br />
-          engineers. At present more than thousands users use Repair India’s services on a regular basis to get home appliance services easier across India. Currently we <br />
-          offer doorstep services in metro cities in India including Delhi, Gurgaon, Noida, Faridabad, Ghaziabad, Ahmedabad, Bengaluru, Chandigarh, Hyderabad, Mumbai & <br />
+        <p className="  pl-10 font-sans">Since 2007 Repair India company has delivered quality home appliance repair and services through innovative doorstep services. The spectacular service does not <br />
+          stop after your repair is completed. Repair India is so confident in the quality, We guarantee our work for upto 30 days warranty at no extra cost. And our selected 
+          trusted and verified service technicians are among the best in the industry. They all are well educated, experienced real professional and factory trained service 
+          engineers. At present more than thousands users use Repair India’s services on a regular basis to get home appliance services easier across India. Currently we 
+          offer doorstep services in metro cities in India including Delhi, Gurgaon, Noida, Faridabad, Ghaziabad, Ahmedabad, Bengaluru, Chandigarh, Hyderabad, Mumbai & 
           many more.</p>
       </div>
 
@@ -66,5 +66,6 @@ const Services = () => {
     </section>
   );
 };
+
 
 export default Services;
