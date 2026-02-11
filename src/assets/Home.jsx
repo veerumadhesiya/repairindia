@@ -20,7 +20,7 @@ export default function Home() {
           <p className=" homep text-base text-gray-700 mb-6 font-semibold slide-in-left">
             Repair India provides a platform that allows experienced professionals cum associate <br />
             service partner to connect with user looking for specific doorstep services. Repair <br />
-            India we know that today's customer deserve the best comfortable home sevices <br />
+            India we know that today customer deserve the best comfortable home sevices <br />
             overall. And our selected trusted and verified service technicians are among the best <br />
             in the industry.
           </p>
@@ -101,3 +101,4 @@ export default function Home() {
     </>
   );
 }
+
