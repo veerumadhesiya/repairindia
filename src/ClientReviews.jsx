@@ -128,7 +128,7 @@ const ClientReviews = () => {
             <div className="flex items-start gap-2 animate-slide-up delay-400">
               <input type="checkbox" id="agree" className="mt-1" />
               <label htmlFor="agree" className="text-sm text-gray-600">
-                I agree to be contacted by Repair India for promotions and SMS
+                I agree to be contacted by Repair India for promotion and SMS
                 alerts
               </label>
             </div>
@@ -163,3 +163,4 @@ const ClientReviews = () => {
 };
 
 export default ClientReviews;
+
