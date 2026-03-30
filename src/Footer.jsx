@@ -32,7 +32,7 @@ export default function Footer() {
                 <div className="transition-colors duration-300 bg-blue-600 rounded-full p-4 mb-3 hover:bg-yellow-400 h-20 w-20">
                   <FaPhoneAlt className="text-white text-2xl absolute left-18 top-5 h-10 w-8" />
                 </div>
-                <p>+91 9212 322 321</p>
+                <p>+91 9212 322 322</p>
                
                 <div className="hidden md:block absolute right-0 top-4 h-24 "></div>
               </div>
