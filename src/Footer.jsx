@@ -20,7 +20,7 @@ export default function Footer() {
                   <FaMapMarkerAlt className="local text-white text-2xl h-10 w-10 absolute left-35 top-5" />
                 </div>
                 <p className='fap'>
-                  10th, GF, Saket Commercial Complex,<br />
+                  10th, GF, Saket Commercial Complexs,<br />
                   New Railway Road, Gurugram, 122034
                 </p>
               
