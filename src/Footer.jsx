@@ -21,7 +21,7 @@ export default function Footer() {
                 </div>
                 <p className='fap'>
                   10th, GF, Saket Commercial Complex,<br />
-                  New Railway Road, Gurugram, 122034
+                  New Railway Road, Gurugram, 122035
                 </p>
               
                 <div className="hidden md:block absolute right-0 top-8 h-24 "></div>
