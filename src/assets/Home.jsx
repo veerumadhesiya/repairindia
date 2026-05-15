@@ -15,14 +15,16 @@ export default function Home() {
        <div className="flex-1 text-center md:text-left pt-40 relative "> 
          <h1 className=" homeh text-[#0355CC] text-4xl font-medium mb-4 slide-in-right"> India’s Leading Multibrand <br />Home Appliance Repair & Services </h1>
          <p className=" homep text-base text-gray-700 mb-6 font-semibold slide-in-left"> Repair India provides a platform that allows experienced professionals cum associate <br /> service partner to connect with user looking for specific doorstep services. Repair <br /> India we know that today customer deserve the best comfortable home sevices <br /> overall. And our selected trusted and verified service technicians are among the best <br /> in the industry. </p>
-         <div className="flex justify-center md:justify-start gap-4 "> <button className="homeb bg-[#FF8A1D] text-white px-6 py-2 rounded hover:bg-amber-500 transition"> CONTACT US </button> </div> </div> {/* Image */} <div className="home-image flex-1 "> <img src="home.png" alt="Repair Service" className="homeimg 
+         <div className="flex justify-center md:justify-start gap-4 "> <button className="homeb bg-[#FF8A1D] text-white px-6 py-2 rounded hover:bg-amber-500 transition"> CONTACT US </button> </div> </div>
+       {/* Image */}
+       <div className="home-image flex-1 "> <img src="home.png" alt="Repair Service" className="homeimg 
 relative 
 
 left-0 md:left-20 lg:left-40
 bottom-0 md:bottom-5 lg:bottom-10
 
 w-52 sm:w-72 md:w-[500px] lg:w-[800px]
-h-[250px] sm:h-[350px] md:h-[500px] lg:h-[700px]
+h-[800px] sm:h-[350px] md:h-[500px] lg:h-[700px]
 
 object-contain
 float-img
