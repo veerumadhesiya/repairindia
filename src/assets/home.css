@@ -108,7 +108,7 @@
 /* Image */
 .home-image {
   flex: 1;
-  max-height: 500px;
+  max-height: 800px;
   animation: float 3s ease-in-out infinite;
 }
 
