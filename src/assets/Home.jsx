@@ -36,7 +36,16 @@ export default function Home() {
           <img
             src="home.png"
             alt="Repair Service"
-            className="homeimg relative left-40 bottom-10 h-120 w-100 float-img"
+            className="homeimg 
+relative 
+
+left-0 md:left-20 lg:left-40
+bottom-0 md:bottom-5 lg:bottom-10
+
+w-52 sm:w-64 md:w-80 lg:w-[400px]
+h-auto
+
+float-img"
           />
         </div>
       </div>
