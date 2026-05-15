@@ -9,56 +9,7 @@ import ClientReviews from "../ClientReviews";
 export default function Home() {
   return (
     <>
-    <section className="bg-[#D1E3FF] min-h-screen">
-  {/* ================= Hero Section ============ */}
-  <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center gap-10 md:gap-12 overflow-hidden">
-
-    <div className="flex-1 text-center md:text-left pt-20 md:pt-32 lg:pt-40 relative">
-      <h1 className="homeh text-[#0355CC] text-3xl sm:text-4xl md:text-5xl font-medium mb-4 slide-in-right leading-tight">
-        India’s Leading Multibrand <br />
-        Home Appliance Repair & Services
-      </h1>
-
-      <p className="homep text-sm sm:text-base text-gray-700 mb-6 font-semibold slide-in-left leading-relaxed">
-        Repair India provides a platform that allows experienced professionals cum associate <br className="hidden md:block" />
-        service partner to connect with user looking for specific doorstep services. Repair <br className="hidden md:block" />
-        India we know that today customer deserve the best comfortable home sevices <br className="hidden md:block" />
-        overall. And our selected trusted and verified service technicians are among the best <br className="hidden md:block" />
-        in the industry.
-      </p>
-
-      <div className="flex justify-center md:justify-start gap-4">
-        <button className="homeb bg-[#FF8A1D] text-white px-5 sm:px-6 py-2 rounded hover:bg-amber-500 transition">
-          CONTACT US
-        </button>
-      </div>
-    </div>
-
-    {/* Image */}
-    <div className="home-image flex-1 flex justify-center md:justify-end">
-      <img
-        src="home.png"
-        alt="Repair Service"
-        className="
-          homeimg
-          relative
-
-          left-0 md:left-10 lg:left-20
-          bottom-0 md:bottom-5 lg:bottom-10
-
-          w-[320px]
-          sm:w-[300px]
-          md:w-[380px]
-          lg:w-[450px]
-          xl:w-[520px]
-
-          h-auto
-          max-w-full
-
-          float-img
-        "
-      />
-    </div>
+   <section className="bg-[#D1E3FF] min-h-screen "> {/* ================= Hero Section ============ */} <div className="container mx-auto flex flex-col-reverse md:flex-row items-center gap-12 "> <div className="flex-1 text-center md:text-left pt-40 relative "> <h1 className=" homeh text-[#0355CC] text-4xl font-medium mb-4 slide-in-right"> India’s Leading Multibrand <br />Home Appliance Repair & Services </h1> <p className=" homep text-base text-gray-700 mb-6 font-semibold slide-in-left"> Repair India provides a platform that allows experienced professionals cum associate <br /> service partner to connect with user looking for specific doorstep services. Repair <br /> India we know that today customer deserve the best comfortable home sevices <br /> overall. And our selected trusted and verified service technicians are among the best <br /> in the industry. </p> <div className="flex justify-center md:justify-start gap-4 "> <button className="homeb bg-[#FF8A1D] text-white px-6 py-2 rounded hover:bg-amber-500 transition"> CONTACT US </button> </div> </div> {/* Image */} <div className="home-image flex-1 "> <img src="home.png" alt="Repair Service" className="homeimg relative left-0 md:left-20 lg:left-40 bottom-0 md:bottom-5 lg:bottom-10 w-52 sm:w-64 md:w-80 lg:w-[400px] h-auto float-img" /> </div> </div>
   </div>
       {/* ================= Other Sections ============ */}
     </section>
