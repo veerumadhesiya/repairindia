@@ -9,28 +9,13 @@ import ClientReviews from "../ClientReviews";
 export default function Home() {
   return (
     <>
-   <section className="bg-[#D1E3FF] min-h-screen "> {/* ================= Hero Section ============ */} <div className="container mx-auto flex flex-col-reverse md:flex-row items-center gap-12 "> <div className="flex-1 text-center md:text-left pt-40 relative "> <h1 className=" homeh text-[#0355CC] text-4xl font-medium mb-4 slide-in-right"> India’s Leading Multibrand <br />Home Appliance Repair & Services </h1> <p className=" homep text-base text-gray-700 mb-6 font-semibold slide-in-left"> Repair India provides a platform that allows experienced professionals cum associate <br /> service partner to connect with user looking for specific doorstep services. Repair <br /> India we know that today customer deserve the best comfortable home sevices <br /> overall. And our selected trusted and verified service technicians are among the best <br /> in the industry. </p> <div className="flex justify-center md:justify-start gap-4 "> <button className="homeb bg-[#FF8A1D] text-white px-6 py-2 rounded hover:bg-amber-500 transition"> CONTACT US </button> </div> </div> {/* Image */} <div className="home-image flex-1 "> <img src="home.png" alt="Repair Service" className="homeimg relative left-0 md:left-20 lg:left-40 bottom-0 md:bottom-5 lg:bottom-10 w-52 sm:w-64 md:w-80 lg:w-[400px] h-auto float-img" /> </div> </div>
-  </div>
-      {/* ================= Other Sections ============ */}
-    </section>
-  <div className=" cardsec flex justify-center gap-6 mt-16 h-10 bottom-0 bg-white">
- 
-  <div className="cardd flex justify-center gap-6 z-100 relative  bottom-50  ">
-    <div className="w-100 h-60 perspective">
-    <div className="relative w-full h-full transform-style-preserve-3d transition-transform duration-500 ease-in-out hover:rotate-y-180 cursor-pointer">
-
-      <div className="absolute bottom-0 w-full h-full flex flex-col items-center justify-center rounded-xl shadow-md border bg-white text-gray-700 backface-hidden">
-        <FaTools className="text-5xl text-gray-400 mb-3 h-30 w-40" />
-        <p className="text-2xl font-semibold">REPAIR</p>
-      </div>
-    
-      <div className="absolute w-full h-full flex flex-col items-center justify-center rounded-xl shadow-md border bg-sky-800 text-white rotate-y-180 backface-hidden">
-        
-        <p className="text-2xl items-center text-center  text-white">Quick,reliable repairs to get your devices rinning like new</p>
-      </div>
-    </div>
-  </div>
-
+   <section className="bg-[#D1E3FF] min-h-screen ">
+     {/* ================= Hero Section ============ */}
+     <div className="container mx-auto flex flex-col-reverse md:flex-row items-center gap-12 "> 
+       <div className="flex-1 text-center md:text-left pt-40 relative "> 
+         <h1 className=" homeh text-[#0355CC] text-4xl font-medium mb-4 slide-in-right"> India’s Leading Multibrand <br />Home Appliance Repair & Services </h1>
+         <p className=" homep text-base text-gray-700 mb-6 font-semibold slide-in-left"> Repair India provides a platform that allows experienced professionals cum associate <br /> service partner to connect with user looking for specific doorstep services. Repair <br /> India we know that today customer deserve the best comfortable home sevices <br /> overall. And our selected trusted and verified service technicians are among the best <br /> in the industry. </p>
+         <div className="flex justify-center md:justify-start gap-4 "> <button className="homeb bg-[#FF8A1D] text-white px-6 py-2 rounded hover:bg-amber-500 transition"> CONTACT US </button> </div> </div> {/* Image */} <div className="home-image flex-1 "> <img src="home.png" alt="Repair Service" className="homeimg relative left-0 md:left-20 lg:left-40 bottom-0 md:bottom-5 lg:bottom-10 w-52 sm:w-64 md:w-80 lg:w-[400px] h-auto float-img" /> </div> </div>
   {/*=========== Service Card============= */}
   <div className="w-100 h-60 perspective">
     <div className="relative w-full h-full transform-style-preserve-3d transition-transform duration-500 ease-in-out hover:rotate-y-180 cursor-pointer">
