@@ -46,7 +46,7 @@ export default function Home() {
           left-0 md:left-10 lg:left-20
           bottom-0 md:bottom-5 lg:bottom-10
 
-          w-[220px]
+          w-[320px]
           sm:w-[300px]
           md:w-[380px]
           lg:w-[450px]
