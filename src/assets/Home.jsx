@@ -24,7 +24,7 @@ left-0 md:left-20 lg:left-40
 bottom-0 md:bottom-5 lg:bottom-10
 
 w-52 sm:w-72 md:w-[500px] lg:w-[800px]
-h-[800px] sm:h-[350px] md:h-[500px] lg:h-[700px]
+h-[250px] sm:h-[350px] md:h-[500px] lg:h-[700px]
 
 object-contain
 float-img
